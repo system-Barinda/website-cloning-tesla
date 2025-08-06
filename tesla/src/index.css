@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+ @layer utilities {
+    .bg-hero {
+    background-image: url('../src/images/cars-tesla1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .text-system{
+    background: rgb(31, 133, 181);
+    border-radius: 5px;
+    height: 57px;
+  }
+  .text-limited{
+    background: rgb(31, 133, 181);
+    border-radius: 5px;
+    height: 48px;
+    width: 57%;
+    justify-content: center;
+    text-align: center;
+  }
+ }
