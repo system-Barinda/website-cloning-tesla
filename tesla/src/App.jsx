@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Tesla from './images/tesla-logo.png'
+import Tesla1 from './images/Tesla1.jpeg'
 import { TbWorld } from "react-icons/tb"; 
 import { MdHelpOutline } from "react-icons/md";            
 import { FaUser } from "react-icons/fa";              
@@ -42,7 +43,7 @@ function App() {
               </div>
       </div>
       <br />
-      <div className="contain-all-model border h-120 w-full flex g-10 relative mt-120 overflow-x-scroll ">
+      <div className="contain-all-model  h-120 w-full flex g-10 relative mt-120 overflow-x-scroll ">
              <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-barinda rounded">
              
              <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
@@ -109,8 +110,35 @@ function App() {
              </div>
              </div>
       </div>
+    <br />
+    <div className="current-Offers border flex h-90 w-full">
+             <div className="box-1 flex border m-2 w-140 bg-gray-200 rounded ">
+              <div className="bo-1 m-2  justify-center items-center w-300">
+                <h1 className='mt-10 text-5xl font-bold'>Current Offers</h1>
+                <h2 className='mt-3 text-xl text-gray-600'>Limited inventory. Take delivery <br /> today</h2>
+                <button className='h-10 w-1/2 bg-gray-100 ml-18 mt-6 rounded font-bold'> learn more</button>
+              </div>
 
+              <div className="bo-1">
+                <img src='./src/images/Tesla1.jpeg' className='h-fit h-full w-[110%] rounded-mm  ' />
+              </div>
+              
+             </div>
+             
+             <div className="box-1 flex border m-2 w-150 bg-gray-200 rounded ">
+              <div className="bo-1 m-2  justify-center items-center w-300">
+                <h1 className='mt-10 text-5xl font-bold'>New Feature: In-Car AI</h1>
+                <h2 className='mt-3 text-xl text-gray-600'>Grok is now available.</h2>
+                <button className='h-10 w-1/2 bg-gray-100 ml-18 mt-6 rounded font-bold'> learn more</button>
+              </div>
 
+              <div className="bo-1">
+                <img src='./src/images/logo2.png' className='h-fit h-full w-[110%] rounded-mm  ' />
+              </div>
+              
+             </div>
+    </div>
+      <br />
     </>
   )
 }

@@ -51,4 +51,8 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .rounded-mm {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+  }
  }
