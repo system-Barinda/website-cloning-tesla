@@ -20,4 +20,35 @@
     justify-content: center;
     text-align: center;
   }
+  .bg-barinda{
+    background-image: url('../src/images/tesla1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  .bg-model3{
+    background-image: url('../src/images/tesla3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .bg-APR {
+     background-image: url('../src/images/tesla2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .bg-FSD{
+    background-image: url('../src/images/tesla4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .bg-BFT{
+    background-image: url('../src/images/tesla5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
  }

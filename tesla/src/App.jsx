@@ -41,6 +41,76 @@ function App() {
                     </div>  
               </div>
       </div>
+      <br />
+      <div className="contain-all-model border h-120 w-full flex g-10 relative mt-120 overflow-x-scroll ">
+             <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-barinda rounded">
+             
+             <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
+              <h1 className='text-6xl text-white'>Model Y</h1>
+              <h2 className='text-xl text-bold mt-3 mb-2 text-white'>Lease From $349/mo for a Limited Time <hr className='h-2 w-90 bg-gray-100' /></h2>
+              <div className="box-order  flex justify-start g-10 justify-around items-center mr-10 mt-5 mb-2">
+                <button className='bg-blue-400 text-white h-10 w-[30%] rounded'>order now</button>
+                <button className='bg-gray-100 text- black h-10 w-[30%] ml-10 rounded'>learn more</button>
+                <br />
+              </div>
+             </div>
+             </div>
+
+             <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-BFT rounded">
+             
+             <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
+              <h1 className='text-6xl text-white'>Model Y</h1>
+              <h2 className='text-xl text-bold mt-3 mb-2 text-white'>Lease From $349/mo for a Limited Time <hr className='h-2 w-90 bg-gray-100' /></h2>
+              <div className="box-order  flex justify-start g-10 justify-around items-center mr-10 mt-5 mb-2">
+                <button className='bg-blue-400 text-white h-10 w-[30%] rounded'>order now</button>
+                <button className='bg-gray-100 text- black h-10 w-[30%] ml-10 rounded'>learn more</button>
+                <br />
+              </div>
+             </div>
+             </div>
+
+
+             <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-FSD rounded">
+             
+             <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
+              <h1 className='text-6xl text-white'>Model Y</h1>
+              <h2 className='text-xl text-bold mt-3 mb-2 text-white'>Lease From $349/mo for a Limited Time <hr className='h-2 w-90 bg-gray-100' /></h2>
+              <div className="box-order  flex justify-start g-10 justify-around items-center mr-10 mt-5 mb-2">
+                <button className='bg-blue-400 text-white h-10 w-[30%] rounded'>order now</button>
+                <button className='bg-gray-100 text- black h-10 w-[30%] ml-10 rounded'>learn more</button>
+                <br />
+              </div>
+             </div>
+             </div>
+
+             <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-APR rounded">
+             
+             <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
+              <h1 className='text-6xl text-white'>Model Y</h1>
+              <h2 className='text-xl text-bold mt-3 mb-2 text-white'>Lease From $349/mo for a Limited Time <hr className='h-2 w-90 bg-gray-100' /></h2>
+              <div className="box-order  flex justify-start g-10 justify-around items-center mr-10 mt-5 mb-2">
+                <button className='bg-blue-400 text-white h-10 w-[30%] rounded'>order now</button>
+                <button className='bg-gray-100 text- black h-10 w-[30%] ml-10 rounded'>learn more</button>
+                <br />
+              </div>
+             </div>
+             </div>
+
+             <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-model3 rounded">
+             
+             <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
+              <h1 className='text-6xl text-white'>Model Y</h1>
+              <h2 className='text-xl text-bold mt-3 mb-2 text-white'>Lease From $349/mo for a Limited Time <hr className='h-2 w-90 bg-gray-100' /></h2>
+              <div className="box-order  flex justify-start g-10 justify-around items-center mr-10 mt-5 mb-2">
+                <button className='bg-blue-400 text-white h-10 w-[30%] rounded'>order now</button>
+                <button className='bg-gray-100 text- black h-10 w-[30%] ml-10 rounded'>learn more</button>
+                <br />
+              </div>
+             </div>
+             </div>
+      </div>
+
+
     </>
   )
 }
