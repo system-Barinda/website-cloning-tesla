@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <header className='bg-white text-black h-15 w-full  flex  items-center g-10  '>
+      <header className='bg-white text-black h-15 w-full  flex  items-center g-10   '>
         <div className="menu-log m-10">
          <img src={Tesla} className='h-10 w-14 ml-14 ' />
         </div>
@@ -157,7 +157,7 @@ function App() {
           </div>
       </div>
       <br />
-    <div className="contain-all-model  h-120 w-full flex g-10 relative  border overflow-x-scroll ">
+    <div className="contain-all-model  h-120 w-full flex g-10 relative   overflow-x-scroll ">
              <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-solor1 rounded">
              
              <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
@@ -215,8 +215,34 @@ function App() {
             
       </div>
     <br />
-   <div className="footer">
-    
+   <div className="footer  h-100 w-full flex-col space-y-10  text-center ">
+             <h1 className='text-[10px] m-20 '>1 $7,500 federal tax credit available to eligible buyers who purchase and take delivery 
+              of a qualifying vehicle by September 30, 2025. Leases not eligible. Not all model trims will qualify. 
+               MSRP cap<br /> of $80,000 for Cybertruck and Model Y; $55,000 for Model 3 applies. Consult a tax professional regarding your personal eligibility.
+             </h1>
+            
+             <h1 className='text-[10px]'>
+              2 Model X All-Wheel Drive starts at $91,630. Price includes Destination and Order 
+             Fees but exclude taxes and other fees. Subject to change. 
+             Vehicle shown has upgrades that will increase the price.
+             </h1>
+
+             <h1 className='text-[10px]'>
+              3 Model S All-Wheel Drive starts at $86,630. Price includes Destination and Order 
+              Fees but exclude taxes and other fees. Subject to change. 
+              Vehicle shown has upgrades that will increase the price.
+             </h1>
+             <br />
+             <div className="footer-detail  mx-auto flex justify-around w-[40%] text-[10px]">
+              <div className="footer-menu">Tesla © 2025</div>
+              <div className="footer-menu">Privacy & Legal</div>
+              <div className="footer-menu">Vehicle Recalls</div>
+              <div className="footer-menu">Contact</div>
+              <div className="footer-menu">News</div>
+              <div className="footer-menu">Get Updates</div>
+              <div className="footer-menu">Locations</div>
+              <div className="footer-menu">Learn</div>
+             </div>
    </div>
     </>
   )

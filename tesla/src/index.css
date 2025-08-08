@@ -91,4 +91,11 @@
     background-repeat: no-repeat;
     background-size: cover; 
   }
+  .footer-menu{
+    cursor: pointer;
+  }
+  .footer-menu:hover{
+    background: gray;
+    transition: 1.4s ease-in-out;
+  }
  }
