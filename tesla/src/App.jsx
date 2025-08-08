@@ -139,7 +139,7 @@ function App() {
              </div>
     </div>
       <br />
-      <div className="full-self w-full h-120 border flex justify-between space-x-1">
+      <div className="full-self w-full h-120  flex justify-between space-x-1">
 
           <div className="self-driving bg-amber-100 h-[90%]  shadow-2xl rounded w-[50%] m-6 flex justify-between items-end justify-center bg-self">
             <h1 className='text-3xl font-bold mb-16 text-amber-50'>Full Self-Driving (Supervised)</h1> <br />
@@ -157,8 +157,67 @@ function App() {
           </div>
       </div>
       <br />
+    <div className="contain-all-model  h-120 w-full flex g-10 relative  border overflow-x-scroll ">
+             <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-solor1 rounded">
+             
+             <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
+              <h1 className='text-6xl text-gray-300'>Solar Panels</h1>
+              <h2 className='text-xl text-bold mt-3 mb-2 text-white font-bold'>Use Solar Energy to Power Your Home and Charge Your Tesla </h2>
+              <div className="box-order  flex justify-start g-10 justify-around items-center mr-10 mt-5 mb-2">
+                <button className='bg-blue-400 text-white h-10 w-[30%] rounded'>order now</button>
+                <button className='bg-gray-100 text- black h-10 w-[30%] ml-10 rounded'>learn more</button>
+                <br />
+              </div>
+             </div>
+             </div>
 
-      
+             <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-solor2 rounded">
+             
+             <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
+              <h1 className='text-6xl text-white'>Powerwall</h1>
+              <h2 className='text-xl text-bold mt-3 mb-2 text-white'>Keep Your Lights On During Outages </h2>
+              <div className="box-order  flex justify-start g-10 justify-around items-center mr-10 mt-5 mb-2">
+                <button className='bg-blue-400 text-white h-10 w-[30%] rounded'>order now</button>
+                <button className='bg-gray-100 text- black h-10 w-[30%] ml-10 rounded'>learn more</button>
+                <br />
+              </div>
+             </div>
+             </div>
+
+
+             <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-solor3 rounded">
+             
+             <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
+              <h1 className='text-6xl text-white'>Solar Roof</h1>
+              <h2 className='text-xl text-bold mt-3 mb-2 text-white'>Generate Clean Energy With Your Roof</h2>
+              <div className="box-order  flex justify-start g-10 justify-around items-center mr-10 mt-5 mb-2">
+                <button className='bg-blue-400 text-white h-10 w-[30%] rounded'>order now</button>
+                <button className='bg-gray-100 text- black h-10 w-[30%] ml-10 rounded'>learn more</button>
+                <br />
+              </div>
+             </div>
+             </div>
+
+             <div className="container-modelY  h-[94%] w-[70%] m-4 mt-2  relative bg-solar4 rounded">
+             
+             <div className="footer-detaitl-modeY  mt-60  h-auto w-130 m-6">
+              <h1 className='text-6xl text-white'>Megapack</h1>
+              <h2 className='text-xl text-bold mt-3 mb-2 text-white'>Massive Batteries for Massive Energy Support</h2>
+              <div className="box-order  flex justify-start g-10 justify-around items-center mr-10 mt-5 mb-2">
+                
+                <button className='bg-blue-400 text-white h-10 w-[30%] rounded'>learn more</button>
+                <br />
+              </div>
+             </div>
+             </div>
+
+             
+            
+      </div>
+    <br />
+   <div className="footer">
+    
+   </div>
     </>
   )
 }

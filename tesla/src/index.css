@@ -67,4 +67,28 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .bg-solar4{
+    background-image: url('../src/images/tesla-solor5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-solor3{
+    background-image: url('../src/images/tesla-solor3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .bg-solor2{
+    background-image: url('../src/images/tesla-solor1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .bg-solor1{
+    background-image: url('../src/images/tesla-solor.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
  }
