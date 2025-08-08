@@ -55,4 +55,16 @@
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
   }
+  .bg-self{
+    background-image: url('../src/images/tesla1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .bg-self1{
+    background-image: url('../src/images/tesla5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
  }

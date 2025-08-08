@@ -111,8 +111,8 @@ function App() {
              </div>
       </div>
     <br />
-    <div className="current-Offers border flex h-90 w-full">
-             <div className="box-1 flex border m-2 w-140 bg-gray-200 rounded ">
+    <div className="current-Offers  flex h-90 w-full">
+             <div className="box-1 flex shadow-2xs m-2 w-140 bg-gray-200 rounded ">
               <div className="bo-1 m-2  justify-center items-center w-300">
                 <h1 className='mt-10 text-5xl font-bold'>Current Offers</h1>
                 <h2 className='mt-3 text-xl text-gray-600'>Limited inventory. Take delivery <br /> today</h2>
@@ -125,7 +125,7 @@ function App() {
               
              </div>
              
-             <div className="box-1 flex border m-2 w-150 bg-gray-200 rounded ">
+             <div className="box-1 flex shadow-md m-2 w-150 bg-gray-200 rounded ">
               <div className="bo-1 m-2  justify-center items-center w-300">
                 <h1 className='mt-10 text-5xl font-bold'>New Feature: In-Car AI</h1>
                 <h2 className='mt-3 text-xl text-gray-600'>Grok is now available.</h2>
@@ -139,6 +139,26 @@ function App() {
              </div>
     </div>
       <br />
+      <div className="full-self w-full h-120 border flex justify-between space-x-1">
+
+          <div className="self-driving bg-amber-100 h-[90%]  shadow-2xl rounded w-[50%] m-6 flex justify-between items-end justify-center bg-self">
+            <h1 className='text-3xl font-bold mb-16 text-amber-50'>Full Self-Driving (Supervised)</h1> <br />
+              <div className="box-order  flex justify-center g-3 justify-between items-end mb-2  w-100 m-2">
+                <button className='bg-blue-400 text-white h-10 w-[80%] rounded'>Demo drive</button>
+                <button className='bg-gray-100 text- black h-10 w-[80%] ml-10 rounded'>learn more</button>
+                <br />
+              </div>
+          </div>
+
+
+          <div className="self-driving bg-amber-100 h-[90%]  shadow-2xl rounded w-[40%] m-6 flex justify-between items-end justify-center bg-self1 ">
+            <h1 className='text-3xl font-bold mb-16 text-white'>World's First Autonomous <br /> Car Delivery</h1> <br />
+            <button className='bg-blue-400 text-white h-10 w-[30%] rounded mr-5 mb-2'>learn more</button>
+          </div>
+      </div>
+      <br />
+
+      
     </>
   )
 }
